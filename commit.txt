@@ -1,0 +1,11 @@
+commit a017a2a93fb8fee96c5c929803f6cf228df66641
+Author: Nahia Maguregi <nahiamag19@gmail.com>
+Date:   Thu Oct 3 11:50:01 2019 +0200
+
+    Nav para PC hecho
+
+commit 6847d84f63b98d1e0cfc62104003d933ba14a2bf
+Author: Gorka Intxausti <ik_2dw3@H015110.NET>
+Date:   Tue Oct 1 10:08:10 2019 +0200
+
+    inicio
