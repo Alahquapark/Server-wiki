@@ -8,48 +8,37 @@ html {
 }
 
 header{
-  background-color: #e2720898;;
-  text-align: center;
+  background-color: #e2720898;
+  float: left;
   width: 100%;
+  height: 20%;
+  display: flex;
+  align-items:center;
+}
+
+.imgLink{
+  float: left;
+
+}
+
+img {
+  margin-bottom: 10px;
+  width: 100px;
+ /* width: 10%; */
+
 }
 
 h1 {
-  font-size: 40px;
-  margin-bottom: 0px;
-}
-
-/* ----- NAV STYLE ----- */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
+  height: 20%;
+  font-family: "Times New Roman";
+  font-size: 100%;
+  text-align: auto;
+  margin-top: 20px;
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: rgba(0, 0, 0, 0.801);
-}
 
-.active {
-  background-color: #ff7f0796;
-}
-/* -------------------- */
-
-
-/* ----- VIDEO STYLE ----- */
+/* ----- VIDEO ----- */
 .video {
   position: relative;
   padding-bottom: 56.25%; /* 16/9 ratio */
@@ -69,7 +58,7 @@ li a:hover:not(.active) {
 }
 /* -------------------- */
 
-img{
+footer img{
   align-content: center;
   width: 100%;
 }

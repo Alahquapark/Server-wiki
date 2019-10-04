@@ -1,3 +1,9 @@
+commit c19e86fd9bc5eb1c8351deb1373a1c2bb65907e0
+Author: Nahia Maguregi <nahiamag19@gmail.com>
+Date:   Thu Oct 3 11:57:39 2019 +0200
+
+    Unificar a un solo css
+
 commit a017a2a93fb8fee96c5c929803f6cf228df66641
 Author: Nahia Maguregi <nahiamag19@gmail.com>
 Date:   Thu Oct 3 11:50:01 2019 +0200
