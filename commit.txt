@@ -1,3 +1,9 @@
+commit bd411a413d6fc7949d6f42f869ac021e75a4a908
+Author: Nahia Maguregi <nahiamag19@gmail.com>
+Date:   Fri Oct 4 12:53:16 2019 +0200
+
+    nav terminado
+
 commit c19e86fd9bc5eb1c8351deb1373a1c2bb65907e0
 Author: Nahia Maguregi <nahiamag19@gmail.com>
 Date:   Thu Oct 3 11:57:39 2019 +0200
