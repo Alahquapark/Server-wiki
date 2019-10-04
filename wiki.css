@@ -58,6 +58,17 @@ h1 {
 }
 /* -------------------- */
 
+/* ----- MakinaBirtualaren blokeak kontrolatze ----- */
+.bloque{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.582);   
+}
+.bloque img{
+  width: 25%;
+}
+/* -------------------- */
+
+
 footer img{
   align-content: center;
   width: 100%;
