@@ -2,22 +2,9 @@
 
 <html lang="es">
 
-    <head>
-        <title>Wiki Proiektua</title>
-        <link rel="stylesheet" href="wiki.css" type="text/css">
-    </head>
-
-    <body>
-        <header>
-            <h1>Wiki</h1>
-        </header>
-
-        <ul>
-            <li><a href="wiki.html">Hasiera</a></li>
-            <li><a href="resumen.html">Laburpena</a></li>
-            <li><a href="tutorial.html">Tutorial</a></li>
-            <li><a class="active" href="video.html">Bideoa</a></li>
-        </ul>
+   
+<body>
+    <?php include 'header.php';?>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
