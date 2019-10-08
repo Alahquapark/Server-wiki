@@ -2,8 +2,7 @@
 
 <html lang="es">
 
-    <body>
-        <?php include 'header.php';?>
+    <?php include 'header.php';?>
 
         <div class="texto">
             <p>
@@ -29,7 +28,6 @@
                 rendimiento.
             </p>
 
-
             <p>
                 Sus características de nivel empresarial lo convierten en una opción perfecta para virtualizar una
                 infraestructura TI, optimizar los recursos existentes y aumentar la eficiencia, a la vez que se reduce el
@@ -39,8 +37,9 @@
             </p>
         </div>
 
-        <img src="proxmox.png" alt="Logotipo proxmox">
-        
+        <footer>
+            <img src="proxmox.png" alt="Logotipo proxmox">
+        </footer>        
     </body>
 
 </html>
