@@ -53,6 +53,7 @@ h1 {
 }
 /* -------------------- */
 
+<<<<<<< HEAD
 /* ----- MAKINA BIRTUALA ------
 ----------- REKISITOAK -------- */
 .bloque {
@@ -104,6 +105,36 @@ h1 {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+=======
+/* ----- MAKINA BIRTUALA // REKISITOAK ----- */
+.bloque {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.582);   
+}
+.bloque img {
+width: 25%;
+}
+/* -------------------- */
+
+/* ----- KOLUMNAK ------ */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* --------------------- */
+
+
+
+>>>>>>> 15b6b0ed15c29581610b3a5bc659f1fa564cbd8b
 
 
 
