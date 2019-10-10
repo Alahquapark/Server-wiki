@@ -5,7 +5,9 @@
     <head>
         <title>Wiki Proiektua</title>
         <!-- CSS de w3schools -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+
         <link rel='stylesheet' href='wiki.css' type='text/css'>
         <link rel='shortcut icon' type='image/x-icon' href='logoBlack.png' />
     </head>
@@ -19,29 +21,49 @@
     </header>
 
     <body>
-        <div class='w3-bar w3-black w3-card'>
-            <a class='w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right'
-                href='javascript:void(0)' onclick='myFunction()' title='Toggle Navigation Menu'>
-                <i class='fa fa-bars'></i>
-            </a>
-            <a href='wiki.html' class='w3-bar-item w3-button w3-padding-large'>HASIERA</a>
+        <!-- MENU DE NAVEGACION -->
+        <div class='w3-bar w3-black w3-card' id="topnav">
+                <a href='wiki.html' class='w3-bar-item w3-button w3-padding-large'>HASIERA</a>
+                <a href='laburpena.html' class='w3-bar-item w3-button w3-padding-large w3-hide-small'  id="active">LABURPENA</a>
 
-            <a href='laburpena.html' class='w3-bar-item w3-button w3-padding-large w3-hide-small'>LABURPENA</a>
+                <div class='w3-dropdown-hover w3-hide-small'>
+                    <button class='w3-padding-large w3-button'>TUTORIALA <i class='fa fa-caret-down'></i></button>
+                    <div class='w3-dropdown-content w3-bar-block w3-card-4'>
+                        <a href='rekisitoak.html' class='w3-bar-item w3-button'>Rekisito minimoak</a>
+                        <a href='instalazioa.html' class='w3-bar-item w3-button'>Instalazioa</a>
+                        <a href='konfigurazioa.html' class='w3-bar-item w3-button'>Konfigurazioa</a>
+                    </div>
+                </div>
 
-            <div class='w3-dropdown-hover w3-hide-small'>
-                <button class='w3-padding-large w3-button' title='More'>TUTORIALA <i class='fa fa-caret-down'></i></button>
-                <div class='w3-dropdown-content w3-bar-block w3-card-4'>
-                    <a href='rekisitoak.html' class='w3-bar-item w3-button'>Rekisito minimoak</a>
-                    <a href='instalazioa.html' class='w3-bar-item w3-button'>Instalazioa</a>
-                    <a href='konfigurazioa.html' class='w3-bar-item w3-button'>Konfigurazioa</a>
+                <a href='bideoa.html' class='w3-bar-item w3-button w3-padding-large w3-hide-small'>BIDEOA</a>
+
+                <!-- MENU DROPDOWN -->
+                <div class='w3-dropdown-hover' id="menuDropdown">
+                    <img src='menuIcon.png' alt='Menu Icon' class="imgIcon">
+
+                    <div class='w3-dropdown-content w3-bar-block w3-card-4' id="dropdown-container">
+                        <a href='laburpena.html' class='w3-bar-item w3-button w3-padding-large' id="link">LABURPENA</a>
+
+                        <a href='bideoa.html' class='w3-bar-item w3-button w3-padding-large' id="link">BIDEOA</a>
+
+                        <div class='w3-dropdown-hover'>
+                            <div class='w3-padding-large w3-button' id="link">TUTORIALA
+                                <i class='fa fa-caret-down'></i>
+                            </div>
+                            <div class='w3-dropdown-content w3-bar-block w3-card-4'>
+                                <a href='rekisitoak.html' class='w3-bar-item w3-button' id="link">Rekisito minimoak</a>
+                                <a href='instalazioa.html' class='w3-bar-item w3-button' id="link">Instalazioa</a>
+                                <a href='konfigurazioa.html' class='w3-bar-item w3-button' id="link">Konfigurazioa</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-------------------------------->
 
-            <a href='bideoa.html' class='w3-bar-item w3-button w3-padding-large w3-hide-small'>BIDEOA</a>
-        </div>
-        
             <h6>> Laburpena</h6>
             <hr/>
+            <h3>Zer da Proxmox?</h3>
             <p>
                 Proxmox VE es una plataforma de virtualización completa, de nivel empresarial, que está desarrollada
                 íntegramente en código abierto. Está basado en el hipervisor KVM y en contenedores LXC, el almacenamiento y
