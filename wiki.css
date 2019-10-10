@@ -124,6 +124,7 @@ h1 {
   align-items: center;
   text-align: justify;
   font-size: large;
+
 }
 
 /* ----- ADAPTAR DISPOSITIVOS ------ */
@@ -150,6 +151,7 @@ h1 {
   .col-s-12 {width: 100%;}
   .guia{width: 80%;
     margin-left: 5%;
+    max-width: 300px;   
 }
   .guia h6{
     margin-left: 10%;
@@ -181,6 +183,7 @@ h1 {
       .col-12 {width: 100%;}
     .guia{   width: 40%;
       margin-left: 5%;
+      max-width: 300px;
     }
     .guia h6{
       margin-left: 10%;
@@ -191,6 +194,7 @@ h1 {
     .Subituloa{
       margin-left:35%;
       width: 30%;
+      min-width: 400px;
     }
     .bloque p{
       float: left;
@@ -210,10 +214,6 @@ h1 {
 
     }
 }
-
-
-
-
 footer img{
   align-content: center;
   padding: 10%;
